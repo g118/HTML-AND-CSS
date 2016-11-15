@@ -1,0 +1,147 @@
+/* the styles for the elements */
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 800px;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 3px;
+    
+    
+}
+section{
+    width: 525px;
+    float: right;
+    padding-left: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+aside {
+    width: 215px;
+    float: right;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+aside h3{
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+
+
+aside img{
+    padding-bottom: 1em;
+}
+
+/* the styles for the header */
+header {
+    border-bottom: 3px solid #931420;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+    
+    }
+.grad{
+    background-image: -webkit-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    background-image: -ms-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    background-image: -moz-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+    background-image: -o-linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);}
+header img {
+	float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 1em;
+}
+main h1{
+    font-size: 150%;
+    padding-top: .5em;
+    padding-bottom: .25em;
+    margin: 0;
+}
+
+}
+header h2 {
+    font-size: 170%;
+    color: #800000;
+    
+    }
+header h3 { 
+    font-size: 130%;
+    font-style: italic;
+    
+}
+/* the styles for the section */
+main {
+	clear: left;
+    
+}
+main h1{
+    
+    
+}
+main h2 {
+    font-size: 130%;
+    color: #800000;
+    padding-top: .5em;
+    padding-bottom: .25em;
+}
+main h3{
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+a:hover{
+    font-style: italic;
+}
+footer p {
+    text-align: center;
+    background-color: #931420;
+    color: white;
+    padding-bottom: 1em;
+    padding-right: 1em;
+}
+footer{
+    clear: both;
+}
+.shadow{
+    text-shadow: 2px 2px #888888;
+}
+blockquote{
+    padding-left: 2em;
+    padding-left: 2em;
+    font-style: italic;
+}
+ul {
+    padding-bottom: .25em;
+    padding-left: 1.25em;
+}
+li{
+    padding-left: .35em;
+}
+#rcorner{
+    border-radius: 25px;
+    background: #73ad21;
+     }
+article{
+    padding-bottom: .5em;
+    padding-top: .5em;
+    border-bottom: 2px;
+    border-top: 2px;
+    border-color: #800000;
+    }
+article img{
+    float: right;
+    border-color: black;
+}
+article h2{
+    padding-top: 0;
+}
+article h3{
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+/* the styles for the footer */
